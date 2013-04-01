@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    background-color: #235;
+}
+
+.page {
+    position: relative;
+    top: 60px;
+    width: 90%;
+    max-width: 1306px;
+    min-width: 450px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/img/masthead2.jpg);
+    background-size: 1306px; 200px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.top-logo {
+    margin: 8px;
+    position: absolute;
+    top: -55px;
+    right: 0;
+}
+
+.nav-bar {
+    float: right;
+    margin: 15px 20px;
+}
+
+.nav {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-color: white;
+    color: white;
+    padding-left: 30px;
+    text-shadow: 0 0 5px black;
+}
+
+.nav:hover {
+    text-shadow: 0 0 0;
+}
+
+.main-body {
+    position: relative;
+    top: 120px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel-container {
+    width: 47%;
+    min-width: 370px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px 20px 10px;
+}
+
+.reflection {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  opacity: 0.25;
+  border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -webkit-border-radius: 0 0 50% 50%;
+}
+
+.home-panel {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    min-width: 400px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+}
+
+.home-panel:hover {
+    box-shadow: 0 0 20px #fff;
+}
+
+.home-panel:active {
+    top: 2px;
+    left: 2px;
+}
+
+.home-panel h3 {
+    position: relative;
+    top: -43px;
+    text-shadow: 1px 1px #eee;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.icon {
+    text-shadow: 1px 1px #eee;
+    opacity: 0.2;
+    position: absolute;
+    left: 15px;
+    top: 55px;
+    font-size: 128px;
+}
+
+.panel-descr {
+    padding: 10px 25px;
+    margin-left: 128px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.referral-panel {
+background: rgb(255,168,76); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,168,76,1) 22%, rgba(255,123,13,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(22%,rgba(255,168,76,1)), color-stop(100%,rgba(255,123,13,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,168,76,1) 22%,rgba(255,123,13,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,168,76,1) 22%,rgba(255,123,13,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,168,76,1) 22%,rgba(255,123,13,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(255,168,76,1) 22%,rgba(255,123,13,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.how-to-panel {
+background: rgb(169,228,247); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(169,228,247,1)), color-stop(100%,rgba(15,180,231,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.panel-title {
+    margin: 0;
+}
+
+.footer {
+    position: relative;
+    margin-top: 150px;
+}
+
+.divider {
+    text-align: center;
+    color: #ddd;
+    text-shadow: -1px -1px #777;
+    padding: 1.5em;
+    font-size: 20px;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+}
+
+.dctv-logo {
+    float: left;
+}
+
+.dtinet-logo {
+    float: right;
+}
