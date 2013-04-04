@@ -26,6 +26,10 @@ body {
     background-color: white;
 }
 
+.leaf-logo {
+    margin: 5px 0 0 5px;
+}
+
 .top-logo {
     margin: 8px;
     position: absolute;
