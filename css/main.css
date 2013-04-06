@@ -13,7 +13,7 @@ body {
 
 .page {
     position: relative;
-    top: 64px;
+    top: 66px;
     width: 90%;
     max-width: 1306px;
     min-width: 450px;
@@ -21,7 +21,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/masthead2.jpg);
-    background-size: 1306px; 200px;
+    background-size: 1306px;
     background-repeat: no-repeat;
     background-color: white;
 }
@@ -67,7 +67,6 @@ body {
 
 .panel-container {
     width: 47%;
-    min-width: 370px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -88,7 +87,7 @@ body {
     position: relative;
     display: block;
     text-decoration: none;
-    min-width: 400px;
+    min-width: 350px;
     height: 200px;
     border: 1px solid white;
     background-color: white;
@@ -108,8 +107,9 @@ body {
 }
 
 .home-panel h3 {
-    position: relative;
-    top: -43px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
     text-shadow: 1px 1px #eee;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -131,11 +131,13 @@ body {
 }
 
 .panel-descr {
-    float: left; /* fix vertical misalign */
+    position: absolute;
+    top: 72px;
     padding: 5px 25px;
     margin-left: 128px;
     font-family: Georgia, serif;
     font-style: italic;
+    font-size: 17px;
 }
 
 .referral-panel {
@@ -191,3 +193,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', end
 .dtinet-logo {
     float: right;
 }
+
+/* Child pages */
+
+.child-backdrop {
+    height: 200px;
+}
+
+.child-page {
+    background-image: url(../img/masthead.jpg);
+    background-size: 1306px;
+    background-repeat: no-repeat;
+}
+
+.child-body {
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 1px 12px 50px 12px;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+.child-body p {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.child-footer {
+    position: relative;
+    top: -50px;
+    margin-top: 0;
+}
+
