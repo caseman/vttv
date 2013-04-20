@@ -294,3 +294,8 @@ h1 {
 .business .fn {
     font-weight: bold;
 }
+
+.contact-icon {
+    position: relative;
+    top: 6px;
+}
