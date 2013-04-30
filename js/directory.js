@@ -52,4 +52,10 @@ $(document).ready(function(){
         }
     });
     populateDirectory();
+    if (document.location.hash) {
+        var catAnchor = $(document.location.hash);
+        if (catAnchor && catAnchor.hasClass('category')) {
+            catAnchor.click();
+        }
+    }
 })
