@@ -2,12 +2,18 @@
 var selectedCategory = null;
 var businesses = [];
 
+function cmp(a, b) {
+    return a.toLowerCase().localeCompare(b.toLowerCase());
+}
+
 function loadData(data) {
-    businesses = data;
+    businesses = data.sort(function(a, b) {
+        return cmp(a[5], b[5]) || cmp(a[6] || '', b[6] || '') || cmp(a[0], b[0]);
+    });
 }
 
 function populateDirectory() {
-    var b, el;
+    var b, el, subCat, lastSubCat;
     var dirEl = $('.directory');
     var tmpl = $('.business-template');
     for (var i = 0; i < businesses.length; i++) {
@@ -21,6 +27,12 @@ function populateDirectory() {
         el.find('.tel').text(b[4]);
         el.addClass('category-' + b[5].toLowerCase());
         el.removeClass('business-template');
+        if (b[6] != lastSubCat) {
+            subCat = el.find('.subcategory');
+            subCat.text(b[6] || '');
+            subCat.removeClass('hidden');
+            lastSubCat = b[6];
+        }
         dirEl.append(el);
     }
 }

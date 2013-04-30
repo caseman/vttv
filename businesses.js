@@ -5,7 +5,8 @@ loadData([
 "Rt 7 South",
 "Bennington, VT 05201",
 "(802) 447-7780",
-"Shopping"
+"Food",
+"Snack Bars"
 ],
 [
 "The Arlington Inn",
@@ -13,7 +14,8 @@ loadData([
 "3904 VT Route 7A",
 "Arlington, VT 05250",
 "(802) 375-6532",
-"Lodging"
+"Lodging",
+"Bed & Breakfast"
 ],
 [
 "Batten Kill Canoe Ltd",
@@ -29,7 +31,8 @@ loadData([
 "Stone House, Rt. 11 & 30",
 "Manchester, VT 05254",
 "(802) 362-2734 or (800) 340-2734",
-"Activity"
+"Goods-and-Services",
+"Sporting Supplies"
 ],
 [
 "Battenkill Stitchery",
@@ -37,7 +40,8 @@ loadData([
 "6350 Historic Rt. 7A",
 "Sunderland, VT 05250",
 "(802) 362-0654",
-"Shopping"
+"Goods-and-Services",
+"Crafts"
 ],
 [
 "The Bennington Bookshop",
@@ -45,7 +49,8 @@ loadData([
 "467 Main Street",
 "Bennington, VT 05201",
 "(802) 442-5059",
-"Shopping"
+"Goods-and-Services",
+"Books",
 ],
 [
 "Bennington Center for the Arts",
@@ -61,7 +66,8 @@ loadData([
 "143 West Main Street",
 "Bennington, VT 05201",
 "(800) 359-9900 or (802) 442-5479",
-"Lodging"
+"Lodging",
+"Motels"
 ],
 [
 "Bennington Museum",
@@ -77,7 +83,8 @@ loadData([
 "430 Main Street",
 "Bennington, VT 05201",
 "(802) 447-1717",
-"Dining"
+"Food",
+"Restaurants"
 ],
 [
 "Bennington Potters",
@@ -85,7 +92,8 @@ loadData([
 "324 County Street",
 "Bennington, VT 05201",
 "(800) 205-8033",
-"Shopping"
+"Goods-and-Services",
+"Crafts"
 ],
 [
 "Bennington Station",
@@ -93,7 +101,8 @@ loadData([
 "150 Depot Street",
 "Bennington, VT 05201",
 "(802) 447-1080",
-"Dining"
+"Food",
+"Groceries"
 ],
 [
 "Best Western Plus – New Englander Motor Inn",
@@ -101,7 +110,8 @@ loadData([
 "220 Northside Drive",
 "Bennington, VT 05201",
 "(802) 442-6311",
-"Lodging"
+"Lodging",
+"Hotels"
 ],
 [
 "The Beverage Den & Smokeshop",
@@ -109,7 +119,8 @@ loadData([
 "214 Hunt Street",
 "Bennington, VT 05201",
 "(802) 442-2861",
-"Shopping"
+"Goods-and-Services",
+"Snack Bars"
 ],
 [
 "Carmody’s",
@@ -117,7 +128,8 @@ loadData([
 "421 Main Street",
 "Bennington, VT 05201",
 "(802) 447-5748",
-"Dining"
+"Food",
+"Restaurants"
 ]
 ]);
 

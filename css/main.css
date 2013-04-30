@@ -238,6 +238,12 @@ h1 {
     font-size: 26px;
 }
 
+h2 {
+    font-size: 23px;
+    border-bottom: 1px solid #ddd;
+    margin-left: -18px;
+}
+
 .child-footer {
     position: relative;
     top: -50px;
