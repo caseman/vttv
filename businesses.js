@@ -50,7 +50,7 @@ loadData([
 "Bennington, VT 05201",
 "(802) 442-5059",
 "Goods-and-Services",
-"Books",
+"Books"
 ],
 [
 "Bennington Center for the Arts",
